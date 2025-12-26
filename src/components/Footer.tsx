@@ -10,7 +10,6 @@ const Footer = () => {
     { name: 'Demand Generation', href: '#services' },
   ],
     company: [
-      { name: 'About', href: '#' },
       { name: 'Projects', href: '#projects' },
       { name: 'Pricing', href: '#pricing' },
       { name: 'Contact', href: '#contact' },

@@ -122,17 +122,18 @@ const PricingCard = ({ plan, index }: { plan: typeof plans[0]; index: number }) 
         ))}
       </ul>
 
-      <button
-        className={`w-full py-4 rounded-full font-medium transition-all duration-300 ${
-          plan.popular
-            ? 'bg-background text-foreground hover:bg-background/90'
-            : plan.isFree
-            ? 'bg-primary text-primary-foreground hover:opacity-90'
-            : 'bg-foreground text-background hover:bg-foreground/90'
-        }`}
-      >
-        {plan.buttonText}
-      </button>
+<a
+  href="#contact"
+  className={`w-full py-4 rounded-full font-medium text-center transition-all duration-300 block ${
+    plan.popular
+      ? 'bg-background text-foreground hover:bg-background/90'
+      : plan.isFree
+      ? 'bg-primary text-primary-foreground hover:opacity-90'
+      : 'bg-foreground text-background hover:bg-foreground/90'
+  }`}
+>
+  {plan.buttonText}
+</a>
     </motion.div>
   );
 };
