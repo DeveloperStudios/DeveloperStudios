@@ -72,13 +72,13 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
               your next high-performance digital ecosystem.
             </p>
 
-            <div className="mt-12 space-y-6">
+          <div className="mt-12 space-y-6">
               <div className="flex items-center gap-4 group cursor-pointer">
                 <div className="w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center group-hover:border-primary/50 transition-colors">
                   <Globe size={20} className="text-primary" />
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-widest text-muted-foreground">Location</p>
+                  <p className="text-xs uppercase tracking-widest text-muted-foreground">Main HQ</p>
                   <p className="text-foreground font-medium">Riyadh, Saudi Arabia</p>
                 </div>
               </div>
@@ -87,8 +87,8 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                   <MapPin size={20} className="text-primary" />
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-widest text-muted-foreground">Global HQ</p>
-                  <p className="text-foreground font-medium">DeveloperStudios Intelligence Lab</p>
+                  <p className="text-xs uppercase tracking-widest text-muted-foreground">India Office</p>
+                  <p className="text-foreground font-medium">Bilaspur, Chhattisgarh, India</p>
                 </div>
               </div>
             </div>

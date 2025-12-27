@@ -22,11 +22,11 @@ const services = [
     description: 'Our marketing lab focuses on lead generation and growth strategies that turn digital products into revenue engines.',
     tags: ['Growth Marketing', 'Lead Gen', 'Content Strategy', 'Digital Ads'],
   },
-  {
+ {
     number: '04',
-    title: 'UI/UX & Copywriting',
-    description: 'Human-centric design meets persuasive copy. We optimize every conversion touchpoint to maximize your ROI.',
-    tags: ['Product Design', 'UX Audit', 'Copywriting', 'Graphic Design'],
+    title: 'Branding',
+    description: 'Visual identity and brand strategy that commands authority. We build cohesive design systems that define your market presence.',
+    tags: ['Logo Design', 'Visual Strategy', 'Brand DNA', 'Graphic Design'],
   },
 ];
 

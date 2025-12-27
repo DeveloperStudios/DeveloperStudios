@@ -21,7 +21,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between">
         <a href="/" className="text-xl font-display font-bold tracking-tighter uppercase">
-          Developer<span className="text-primary">Studios</span>
+          Developer <span className='text-black'>s</span><span className="text-primary">Studios </span>
         </a>
 
         <div className="hidden md:flex items-center gap-10">
